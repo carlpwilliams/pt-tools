@@ -173,7 +173,7 @@ const getStratsFromBuys = async () => {
 const getStratsFromSells = async () => { }
 
 const getSheet = async (bot) => {
-  const creds = require("./googleCreds.jsonc"); // the file saved above
+  const creds = require("./googleCreds.json"); // the file saved above
   const doc = new GoogleSpreadsheet(bot.GOOGLE_SPREADSHEET_ID);
   await doc.useServiceAccountAuth(creds);
   const ret = await doc.loadInfo(); // loads document properties and worksheets
