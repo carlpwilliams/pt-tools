@@ -16,6 +16,7 @@ The project watches a discord channel and whenever it sees the word "Sold" in a 
     <blockquote>npm install i</blockquote>
 
 - Fill in the required fields in config.jsonc
+- Download google creds json file and ensure it is in the root folder of the project
 
 ## Running it to test
 - Test it by running
