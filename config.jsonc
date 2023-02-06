@@ -1,0 +1,15 @@
+{
+  "bots": [
+    {
+      "owner": "", // Your name. (Optional)
+      "PT_API_BASE_URL": "", // URL to PT
+      "BotName": "", // Name this bot
+      "PT_API_TOKEN": "", // The API key found in PT settings
+      "GOOGLE_SPREADSHEET_ID": "", 
+      "SheetName": "", // This is the sheet that this bot will add your daily performance to
+      "DiscordChannelId": "", // The discord to watch for sold messages from PT
+      "profitTrailerInstallationDataFolder": "" // This is where PT stores it's db
+    }
+  ],
+  "BOT_TOKEN": "" // The discord token to use.
+}

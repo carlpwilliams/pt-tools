@@ -1,0 +1,4 @@
+node_modules/
+googleCreds.jsonc
+googleCreds.json
+package-lock.json

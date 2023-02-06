@@ -1,0 +1,14 @@
+{
+  "apps": [
+    {
+      "name": "pt-tools",
+      "cwd": ".",
+      "script": "node",
+      "node_args": ["index.js"],
+      "log_date_format": "YYYY-MM-DD HH:mm Z",
+      "exec_interpreter": "",
+      "exec_mode": "fork",
+      "autorestart": false
+    }
+  ]
+}
